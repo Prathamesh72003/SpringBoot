@@ -10,6 +10,9 @@ public class Student {
     private String name;
     private String branch;
 
+    public Student() {
+        super();
+    }
 
     public Student(int id, String name, String branch) {
         this.id = id;

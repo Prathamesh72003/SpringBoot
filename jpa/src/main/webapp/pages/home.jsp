@@ -7,10 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <input type="text" name="name" id="name">
-        <input type="password" name="password" id="password">
+    <form action="addStudent">
+        <input type="text" name="id" id="id" placeholder="Enter PRN">
+        <input type="text" name="name" id="name" placeholder="Enter Name">
+        <input type="branch" name="branch" id="branch" placeholder="Enter Branch">
         <input type="submit" value="Submit">
+    </form>
+
+    <form action="getStudent">
+        <input type="text" name="id" id="id" placeholder="Enter PRN">
+        <input type="submit" value="Search">
     </form>
 </body>
 </html>
